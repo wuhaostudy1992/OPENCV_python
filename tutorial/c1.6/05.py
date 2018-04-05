@@ -1,5 +1,7 @@
 import numpy as np
 import cv2
+
+
 cap = cv2.VideoCapture('1.flv')
 fgbg = cv2.createBackgroundSubtractorMOG2()
 while(1):
